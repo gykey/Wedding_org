@@ -70,7 +70,7 @@ function App() {
   }, [])
 
   return (
-    <Router>
+    <Router basename="/Wedding_org">
       <div className="app-wrapper">
         <Navbar session={session} />
         <main style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
